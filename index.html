@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pondok Pesantren Terpadu Bismillah</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-sans bg-gray-100">
+  <!-- Header -->
+ <header class="bg-teal-800 text-white shadow-lg fixed w-full z-50">
+  <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+    <div class="text-lg font-bold">
+      Pondok Pesantren Terpadu Bismillah
+    </div>
+    <nav class="hidden md:flex space-x-6">
+      <a href="#hero" class="hover:underline py-2 px-4 rounded-lg hover:bg-teal-700">Beranda</a>
+      <a href="#profile" class="hover:underline py-2 px-4 rounded-lg hover:bg-teal-700">Profil</a>
+      <a href="#program-pendidikan" class="hover:underline py-2 px-4 rounded-lg hover:bg-teal-700">Pendidikan</a>
+      <a href="#informasi" class="hover:underline py-2 px-4 rounded-lg hover:bg-teal-700">Informasi</a>
+      <a href="#kerja-sama" class="hover:underline py-2 px-4 rounded-lg hover:bg-teal-700">Kerja Sama</a>
+    </nav>    
+    
+    <div id="mobile-menu" class="hidden bg-teal-700 text-white md:hidden">
+      <a href="#hero" class="block px-4 py-2 hover:bg-teal-600">Beranda</a>
+      <a href="#profile" class="block px-4 py-2 hover:bg-teal-600">Profil</a>
+      <a href="#program-pendidikan" class="block px-4 py-2 hover:bg-teal-600">Pendidikan</a>
+      <a href="#informasi" class="block px-4 py-2 hover:bg-teal-600">Informasi</a>
+      <a href="#kerja-sama" class="block px-4 py-2 hover:bg-teal-600">Kerja Sama</a>
+    </div>
+    
+    <button id="menu-toggle" class="md:hidden focus:outline-none">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+      </svg>
+    </button>
+  </div>
+</header>
+
+  <!-- Hero Section -->
+  <section id="hero" class="relative h-[95vh] pt-16">
+    <img src="bg.jpg" width="400px" height="2000px" alt="Hero Background" class="absolute inset-0 w-full h-full object-cover"/>
+    <div class="relative h-full flex flex-col items-center justify-center text-center text-white px-6">
+      <h1 class="text-5xl md:text-6xl font-extrabold leading-tight drop-shadow-lg">
+        Pondok Pesantren Terpadu Bismillah
+      </h1>
+      <p class="mt-4 text-lg md:text-xl font-light">
+        Barugbug - Ciomas - Padarincang - Banten
+      </p>
+      <a href="#program-pendidikan" class="mt-6 px-6 py-3 bg-yellow-500 hover:bg-yellow-600 text-black font-bold rounded-full transition-all">
+        Lihat Program Kami
+      </a>
+    </div>
+</section>
+
+
+  <!-- Program Pendidikan Section -->
+  <section id="hero" class="relative h-[40vh] pt-16">
+  <section id="program-pendidikan" class="container mx-auto px-4 py-12">
+    <h2 class="text-3xl md:text-4xl font-bold text-center mb-12">
+      Program Pendidikan
+    </h2>
+    <div class="relative">
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 overflow-x-auto flex-nowrap scrollbar-hide snap-x snap-mandatory" id="program-grid">
+        <div class="bg-white p-6 rounded-xl shadow-lg transform hover:scale-105 transition duration-300 snap-center">
+          <img src="paud.jpg" alt="PAUD/TK" class="w-20 h-20 mx-auto mb-4">
+          <h3 class="font-bold text-lg">PAUD/TK</h3>
+        </div>
+        <div class="bg-white p-6 rounded-xl shadow-lg transform hover:scale-105 transition duration-300 snap-center">
+          <img src="sd.png" alt="SD Islam" class="w-20 h-20 mx-auto mb-4">
+          <h3 class="font-bold text-lg">SD Islam</h3>
+        </div>
+        <div class="bg-white p-6 rounded-xl shadow-lg transform hover:scale-105 transition duration-300 snap-center">
+          <img src="smp.png" alt="SMP-IT" class="w-20 h-20 mx-auto mb-4">
+          <h3 class="font-bold text-lg">SMP-IT</h3>
+        </div>
+        <div class="bg-white p-6 rounded-xl shadow-lg transform hover:scale-105 transition duration-300 snap-center">
+          <img src="LOGO YAYASAN.png" alt="MA" class="w-20 h-20 mx-auto mb-4">
+          <h3 class="font-bold text-lg">MA</h3>
+        </div>
+        <div class="bg-white p-6 rounded-xl shadow-lg transform hover:scale-105 transition duration-300 snap-center">
+          <img src="LOGO YPPT BISMILLAH.png" alt="SMK" class="w-20 h-20 mx-auto mb-4">
+          <h3 class="font-bold text-lg">SMK</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Profile -->
+  <section id="hero" class="relative h-[20vh] pt-16">
+  <section id="profile" class="bg-gradient-to-r from-blue-900 to-green-800 py-12">
+    <div class="container mx-auto px-4 flex flex-wrap items-center">
+      <div class="w-full md:w-1/2">
+        <!-- Menambahkan link YouTube -->
+        <a href="https://www.youtube.com/watch?v=xAdAe5U-2QY" target="_blank">
+          <iframe class="w-full h-64 rounded" src="https://www.youtube.com/embed/xAdAe5U-2QY" frameborder="0" allowfullscreen></iframe>
+        </a>
+      </div>
+      <div class="w-full md:w-1/2 md:pl-8 mt-6 md:mt-0">
+        <h2 class="text-2xl font-bold mb-4 text-white">Profile</h2>
+        <p class="text-gray-200 mb-4">Pesantren Terpadu Bismillah, Kabupaten Serang didirikan pada tahun 2005 oleh Drs. KH. Amin Shobrie, M.Pd, Pondok Pesantren Terpadu Bismillah memiliki area keseluruhan kurang lebih sekitar 4 hektar. Pesantren Terpadu Bismillah berlokasi di Jl. Palka Km. 22 Barugbug Padarincang, Serang, Banten. Pesantren Terpadu Bismillah saat ini diasuh oleh KH. Alvi Ruzabady dan KH. Rifqi Sujahilman.</p>
+        <p class="text-gray-200 mb-4">Seiring perkembangan waktu Pesantren Terpadu Bismillah kini telah memiliki lembaga pendidikan formal terdiri dari PAUD, Diniyah, SMP terpadu Bismillah, MTs Terpadu, SMK Bismillah, MA Bismillah dan STAIB Bismillah.</p>
+        <a href="#" class="text-yellow-300 font-semibold hover:underline">Baca Selengkapnya</a>
+      </div>
+    </div>
+</section>
+
+
+<!-- Informasi -->
+<section id="hero" class="relative h-10vh] pt-16"></section>
+<section id="informasi" class="container mx-auto px-4 py-12">
+  <h2 class="text-2xl font-bold text-center mb-8">Informasi</h2>
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+    <div class="bg-white p-6 rounded shadow">
+      <img src="pkkmb.png" alt="Penerimaan Santri Baru" class="w-full h-40 object-cover rounded mb-4">
+      <h3 class="font-bold text-lg mb-2">Penerimaan Santri Baru</h3>
+      <p class="text-gray-600 mb-4">Segera dibuka pendaftaran santri baru untuk tahun ajaran 2025/2026...</p>
+      <a href="#" class="text-teal-600 font-semibold hover:underline">Selengkapnya</a>
+    </div>
+    <div class="bg-white p-6 rounded shadow">
+      <img src="harisantri.png" alt="PKBM Bismillah" class="w-full h-40 object-cover rounded mb-4">
+      <h3 class="font-bold text-lg mb-2">Kegiatan Hari Santri</h3>
+      <p class="text-gray-600 mb-4">Kegiatan hari santri dilakukan rutin disetiap tahun...</p>
+      <a href="#" class="text-teal-600 font-semibold hover:underline">Selengkapnya</a>
+    </div>
+    <div class="bg-white p-6 rounded shadow">
+      <img src="1.jpg" alt="Haflah Akhir Sanah" class="w-full h-40 object-cover rounded mb-4">
+      <h3 class="font-bold text-lg mb-2">Haflah Akhir Sanah</h3>
+      <p class="text-gray-600 mb-4">Wisudah Santri dan siswa Ponpes Terpadu Bismillah...</p>
+      <a href="#" class="text-teal-600 font-semibold hover:underline">Selengkapnya</a>
+    </div>
+  </div>
+</section>
+
+<!-- Kerja Sama -->
+<section id="kerja-sama" class="bg-gray-100 py-8">
+  <style>
+    .carousel-container {
+      position: relative;
+      width: 100%;
+      overflow-x: hidden;
+    }
+
+    .carousel {
+      display: inline-flex;
+      gap: 2rem;
+      scroll-behavior: smooth;
+    }
+
+    .carousel-card {
+      flex: 0 0 auto;
+      background-color: white;
+      padding: 1.5rem;
+      border-radius: 0.375rem;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      width: 300px;
+    }
+
+    .carousel-card img {
+      width: 100%;
+      object-fit: cover;
+      border-radius: 0.375rem;
+      margin-bottom: 1rem;
+      aspect-ratio: 16 / 9; /* Menjaga rasio gambar */
+    }
+
+    .carousel-button {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background-color: #319795;
+      color: white;
+      border: none;
+      border-radius: 50%;
+      width: 3rem;
+      height: 3rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+      z-index: 10;
+    }
+
+    .carousel-button:hover {
+      background-color: #2c7a7b;
+    }
+
+    .carousel-button.left {
+      left: 1rem;
+    }
+
+    .carousel-button.right {
+      right: 1rem;
+    }
+  </style>
+
+  <div class="container mx-auto px-4">
+    <h2 class="text-2xl font-bold text-center mb-8">Kerja Sama</h2>
+    <div class="relative">
+      <!-- Tombol kiri -->
+      <button 
+        class="carousel-button left absolute top-1/2 -translate-y-1/2 left-4 bg-white rounded-full shadow p-3 z-10"
+        onclick="scrollCarousel(-1, 'carouselContainer')">
+        &#8249;
+      </button>
+      
+      <!-- Kontainer carousel -->
+      <div id="carouselContainer" class="flex gap-8 overflow-hidden scroll-smooth">
+        <!-- Kartu 1 -->
+        <div class="bg-white p-6 rounded shadow min-w-[350px] max-w-[350px] flex-shrink-0">
+          <img src="mtsb.png" alt="PT. Mistuba Indonesia" class="w-full h-48 object-cover rounded mb-4">
+          <h3 class="font-bold text-lg mb-2 overflow-hidden text-ellipsis whitespace-nowrap">PT. Mitsuba Indonesia</h3>
+          <p class="text-gray-600 mb-4">Kerja sama dalam penyaluran tenaga kerja lewat SMK Bismillah.</p>
+          <a href="#" class="text-teal-600 font-semibold hover:underline">Selengkapnya</a>
+        </div>
+        <!-- Kartu 2 -->
+        <div class="bg-white p-6 rounded shadow min-w-[350px] max-w-[350px] flex-shrink-0">
+          <img src="ns.png" alt="PT. Indonesia Nippon Seiki" class="w-full h-48 object-cover rounded mb-4">
+          <h3 class="font-bold text-lg mb-2 overflow-hidden text-ellipsis whitespace-nowrap">PT. Indonesia Nippon Seiki</h3>
+          <p class="text-gray-600 mb-4">Kerja sama dalam penyaluran tenaga kerja.</p>
+          <a href="#" class="text-teal-600 font-semibold hover:underline">Selengkapnya</a>
+        </div>
+        <!-- Kartu 3 -->
+        <div class="bg-white p-6 rounded shadow min-w-[350px] max-w-[350px] flex-shrink-0">
+          <img src="alfa.png" alt="PT. Sumber Alfaria Trijaya tbk" class="w-full h-48 object-cover rounded mb-4">
+          <h3 class="font-bold text-lg mb-2 overflow-hidden text-ellipsis whitespace-nowrap">PT. Sumber Alfaria Trijaya tbk</h3>
+          <p class="text-gray-600 mb-4">Kerja sama dalam penyaluran tenaga kerja lewat SMK Bismillah, khususnya untuk lulusan SMK Bismillah.</p>
+          <a href="#" class="text-teal-600 font-semibold hover:underline">Selengkapnya</a>
+        </div>
+        <!-- Kartu 4 -->
+        <div class="bg-white p-6 rounded shadow min-w-[350px] max-w-[350px] flex-shrink-0">
+          <img src="Sariroti.png" alt="PT. Sari Roti" class="w-full h-48 object-cover rounded mb-4">
+          <h3 class="font-bold text-lg mb-2 overflow-hidden text-ellipsis whitespace-nowrap">PT. Sari Roti</h3>
+          <p class="text-gray-600 mb-4">Kerja sama dalam penyaluran tenaga kerja lewat SMK Bismillah.</p>
+          <a href="#" class="text-teal-600 font-semibold hover:underline">Selengkapnya</a>
+        </div>
+      </div>
+      
+      <!-- Tombol kanan -->
+      <button 
+        class="carousel-button right absolute top-1/2 -translate-y-1/2 right-4 bg-white rounded-full shadow p-3 z-10"
+        onclick="scrollCarousel(1, 'carouselContainer')">
+        &#8250;
+      </button>
+    </div>
+  </div>
+</section>
+
+
+<script>
+  // Fungsi untuk menggulir carousel
+  function scrollCarousel(direction, containerId) {
+    const container = document.getElementById(containerId);
+    const cardWidth = 370; // Lebar kartu (350px) + gap (20px)
+    container.scrollBy({
+      left: direction * cardWidth,
+      behavior: 'smooth'
+    });
+  }
+</script>
+
+
+<footer class="bg-teal-800 text-white py-12 text-center">
+  <div class="container mx-auto">
+      <p>&copy; 2025 Pondok Pesantren Terpadu Bismillah. All Rights Reserved.</p>
+      <footer class="bg-teal-800 text-white py-12">
+        <div class="container mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div class="text-left">
+                <h3 class="text-lg font-semibold mb-2 flex items-center">
+                    <img src="email_3624728.png" alt="Email Icon" class="w-6 h-6 mr-2"> Kontak
+                </h3>
+                <p class="mb-1">Email: <a href="mailto:info@bismillah.com" class="text-white underline">info@bismillah.com</a></p>
+                <p class="mb-1">Telepon: <a href="tel:+62123456789" class="text-white underline">+62 123 456 789</a></p>
+                <p>Alamat: Jalan Raya Palka Km 22, Serang, Kode Pos 42168</p>
+            </div>
+            <div class="text-left">
+                <h3 class="text-lg font-semibold mb-2 flex items-center">
+                    <img src="social-media_4187336.png" alt="Follow Us Icon" class="w-6 h-6 mr-2"> Follow Us
+                </h3>
+                <a href="https://www.instagram.com/bismillahgallery_/" class="text-white mx-2 mb-1 inline-block">Instagram</a>
+                <a href="https://www.facebook.com/bismigallery/" class="text-white mx-2 mb-1 inline-block">Facebook</a>
+            </div>
+            <div class="text-left">
+                <h3 class="text-lg font-semibold mb-2 flex items-center">
+                    <img src="lok.png" alt="Location Icon" class="w-6 h-6 mr-2"> Location
+                </h3>
+                <p class="mb-1">Jalan Raya Palka Km 22, Serang, Kode Pos 42168</p>
+                <a href="https://www.google.com/maps?q=Jalan+Raya+Palka+Km+22,+Serang,+Kode+Pos+42168" class="text-white underline">Lihat di Google Maps</a>
+            </div>
+        </div>
+    </footer>    
+      
+
+</footer>
+
+
+
+<script>
+  const menuToggle = document.getElementById('menu-toggle');
+  const mobileMenu = document.getElementById('mobile-menu');
+
+  menuToggle.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+  });
+</script>
+
+</body>
+</html>
